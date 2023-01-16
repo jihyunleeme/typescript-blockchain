@@ -46,7 +46,7 @@ class Dict {
   add(word: Word) {
     // class를 타입처럼 사용
     if (this.words[word.term] === undefined) {
-      this.words[word.term] === word.def;
+      this.words[word.term] = word.def;
     }
   }
 
